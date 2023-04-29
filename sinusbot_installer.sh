@@ -731,9 +731,6 @@ else
     greenMessage "User \"$SINUSBOTUSER\" already exists."
   fi
 
-chmod 750 -R $LOCATION
-chown -R $SINUSBOTUSER:$SINUSBOTUSER $LOCATION
-
 fi
 
 # Create dirs or remove them.
