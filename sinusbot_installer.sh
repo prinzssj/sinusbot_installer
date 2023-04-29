@@ -742,8 +742,6 @@ if [[ -f $LOCATION/ts3client_startscript.run ]]; then
   rm -rf $LOCATION/*
 fi
 
-if [ "$DISCORD" == "false" ]; then
-
 makeDir $LOCATION/teamspeak3-client
 
 chmod 750 -R $LOCATION
