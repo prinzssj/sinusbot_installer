@@ -726,9 +726,6 @@ else
     if [ -d /home/$SINUSBOTUSER ]; then
       $GROUPADD $SINUSBOTUSER
       $USERADD -d /home/$SINUSBOTUSER -s /bin/bash -g $SINUSBOTUSER $SINUSBOTUSER
-    else
-      $GROUPADD $SINUSBOTUSER
-      $USERADD -m -b /home -s /bin/bash -g $SINUSBOTUSER $SINUSBOTUSER
     fi
   else
     greenMessage "User \"$SINUSBOTUSER\" already exists."
