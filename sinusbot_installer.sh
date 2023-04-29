@@ -691,9 +691,10 @@ greenMessage "Packages installed"!
 #   fi
 # fi
 # 
-# USERADD=$(which useradd)
-# GROUPADD=$(which groupadd)
-# ipaddress=$(ip route get 8.8.8.8 | awk {'print $7'} | tr -d '\n')
+
+USERADD=$(which useradd)
+GROUPADD=$(which groupadd)
+ipaddress=$(ip route get 8.8.8.8 | awk {'print $7'} | tr -d '\n')
 
 # Create/check user for sinusbot.
 
