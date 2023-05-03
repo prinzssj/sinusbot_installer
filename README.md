@@ -1,10 +1,8 @@
-# Password Generator
+# SinusBot Installer Script
 
-Hello! First of all, thanks for visiting my profile and trying out my password generator. These are from my first projects learning to program. So if you see any bug or something, let me know.
+Hello! I want to present you the new mini update that I did to the installer script for SinusBot made by Philipp Esswein.
 
-This project has only been tested on Windows, it has not been tested on any other system, if you want to test it, it is at your own risk.
-
-
+The update in question is for Ubuntu 22.04, although I didn't test it for 18.04, because I had to disable the "TimeSync" part because the plugin or implementation showed us an error. In addition to the part where you install all the dependencies you need, change the "python" package to "python-is-python3". In addition to the fact that we are not going to have an error with the new yt-dlp updated a few months ago, which is working perfectly. If you have any errors, please, I ask you to report it. Since I will be maintaining it, if I have time.
 
 ### Installation 🔧
 
@@ -40,4 +38,4 @@ PuTTy
 This project is licensed under the $:git$ license any illegal copying or distribution will be reported.
 
 ---
-⌨️ with ❤️ by [$:git$](https://github.com/git-vscode) 😊
+⌨️ with ❤️ by [$:git$](https://github.com/prinzssj) 😊
