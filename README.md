@@ -10,8 +10,8 @@ The update in question is for Ubuntu 22.04, although I didn't test it for 18.04,
 
 2. Run this command through your terminal:
 
-   ```bash <(wget -O - 'https://raw.githubusercontent.com/prinzssj/sinusbot_installer/main/sinusbot_installer.sh')
-
+   ```
+   bash <(wget -O - 'https://raw.githubusercontent.com/prinzssj/sinusbot_installer/main/sinusbot_installer.sh')
    ```
 
 3. Next, carefully read the options that the script gives you, and continue the installation on your own.
@@ -30,7 +30,7 @@ PuTTy
 
 ## Authors ✒️
 
-* **$:git$** - *Work to edit to make it work.* - [$:git$](https://github.com/prinzssj)
+* **prinzSSJ-** - *Work to edit to make it work.* - [prinSSJ-](https://github.com/prinzssj)
 * **Philipp Esswein | DAThosting.eu** - *Initial Work & Initial Idea.* - [DATHosting](https://dathosting.eu/)
 
 ## License 📄
